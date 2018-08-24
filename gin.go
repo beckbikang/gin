@@ -37,6 +37,7 @@ func (c HandlersChain) Last() HandlerFunc {
 	return nil
 }
 
+
 type RouteInfo struct {
 	Method  string
 	Path    string
